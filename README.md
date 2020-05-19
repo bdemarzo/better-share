@@ -25,14 +25,14 @@ You can check here in use: https://www.miragenews.com/ghost-flight-pilots-fall-a
 ## Features
 - Web Share API for native share
 - Fallback modal for [unsupported browsers](https://caniuse.com/#feat=web-share)
-- Multiple share buttons
+- Multiple share buttons supported
 - Uses CSS animations
-- Fallback modal closes when the site overlay is selected
-- Supports [Open Graph Metadata](https://ogp.me/)
+- Fallback modal closes when tap/click outside the share modal
+- Supports [Open Graph Metadata](https://ogp.me/) and inline link/title (see below)
 
 ## Requirements
 - jQuery
-- Your website must be served over [HTTPS](https://www.cloudflare.com/learning/ssl/what-is-https/)
+- Your website must be served over HTTPS
 - Sharing can only be triggered by a user action (click or touch)
 
 ## Getting Started
