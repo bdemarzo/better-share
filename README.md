@@ -94,6 +94,6 @@ The URL to be shared.
 ### 2. Supported browser
 ![Supported browser](https://raw.github.com/selay/better-share/master/screenshots/3.png)
 
-### 3. Fallback
+### 3. Fallback (Eg, on desktop)
 ![Fallback](https://raw.github.com/selay/better-share/master/screenshots/2.jpg)
 
