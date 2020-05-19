@@ -90,7 +90,7 @@ The URL to be shared.
 ![Buttons](https://raw.github.com/selay/better-share/master/screenshots/1.jpg)
 
 ### Supported browser
-![Supported browser](https://raw.github.com/selay/better-share/master/screenshots/3.jpg)
+![Supported browser](https://raw.github.com/selay/better-share/master/screenshots/3.png)
 
 ### Fallback
 ![Fallback](https://raw.github.com/selay/better-share/master/screenshots/2.jpg)
