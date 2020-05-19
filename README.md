@@ -1,14 +1,26 @@
-# Good Share
+# Better Share 
 
-Good Share is a share button library with [Web Share API](https://css-tricks.com/how-to-use-the-web-share-api/) integration.
+ Web Share API Navigator.share() native (Android and IOS) share dialog with fallback modal for unsupported browsers.
 
-Using the Web Share API, it allows the user to share content using the native share dialog on [supported browsers](https://caniuse.com/#feat=web-share). 
+Forked it from Chris Yee's Good Share (Thanks!) and made the following changes:
 
-For unsupported browsers, a fallback modal window with sharing buttons can be used by the user.
+- Rewrote in jquery almost all of the code as it had too many issues/inefficency to use on production
+- Configurable now as you can set buttons, classes etc
+- Made it far more lightweight as it won't do anything now until the button is clicked. No overlay, no modal etc is created
+- It uses Open Graph if no inline url/title/description provided. If provided, overrides og tags
+- Added font awesome 4.7 for button icons. It is not required though. You can add your own buttons
+- Simplified to just one js and one css files. 
+- Comes with facebook, twitter, whatsapp, telegram by default 
 
-Feel free to [let me know](https://twitter.com/cmyee) if you use Good Share in one of your websites.
+Better Share is a social share button library with [Web Share API](https://css-tricks.com/how-to-use-the-web-share-api/) integration.
 
-[View Demo](https://chrisyee.ca/good-share/) | [Download](https://github.com/christophery/good-share/releases/latest)
+Using the Web Share API Navigator.share(), it allows the user to share content using the native share dialog, especially mobile on [supported browsers](https://caniuse.com/#feat=web-share). 
+
+For unsupported browsers, a fallback modal window with sharing buttons are used.
+
+[Some websites already use it. Eg:](https://www.miragenews.com/ghost-flight-pilots-fall-asleep-with-140-aboard-f16s-scrambled-video/) | [Download](https://github.com/selay/better-share/archive/master.zip)
+
+You can check here in use: https://www.miragenews.com/ghost-flight-pilots-fall-asleep-with-140-aboard-f16s-scrambled-video/
 
 ## Features
 - Web Share API for native share
@@ -16,7 +28,6 @@ Feel free to [let me know](https://twitter.com/cmyee) if you use Good Share in o
 - Multiple share buttons
 - Uses CSS animations
 - Fallback modal closes when the site overlay is selected
-- Keyboard support for closing fallback modal (esc key)
 - Supports [Open Graph Metadata](https://ogp.me/)
 
 ## Requirements
@@ -25,21 +36,33 @@ Feel free to [let me know](https://twitter.com/cmyee) if you use Good Share in o
 
 ## Getting Started
 
-- Include the CSS and JS files from the `dist/` folder.
+- Include the CSS and JS files 
 
 ```html
-<link rel="stylesheet" href="css/good-share.min.css">
+<link rel="stylesheet" href="css/better-share.css">
 ```
 
 ```html
-<script src="js/good-share.min.js"></script>
+<script src="js/better-share.js"></script>
 ```
 
-- Add the `.good-share` CSS class to you share buttons along with the [data attribute options](#options).
+- Add the `.better-share` CSS class to you share buttons along with the [data attribute options](#options).
+
+- Eg. It will use og meta tags or just current page url
 
 ```html
-<button class="good-share" data-share-title="Hello World" data-share-url="https://chrisyee.ca">
-  Share This
+<button class="better-share">
+    <span>Share </span>
+    <i class="fa fa-share-alt fa-lg" aria-hidden="true"></i>
+ </button>
+```
+
+- Eg. You can specify using data-share-title etc to override specific value.
+
+```html
+<button class="better-share" data-share-title="Hello World" data-share-url="https://nasa.gov">
+    <span>Share </span>
+    <i class="fa fa-share-alt fa-lg" aria-hidden="true"></i>
 </button>
 ```
 
@@ -58,17 +81,6 @@ The text to be shared.
 ### data-share-url
 The URL to be shared.
 
-``data-share-url="https://chrisyee.ca"``
+``data-share-url="https://nasa.gov"``
 
 
-## Development
-Good Share CSS and JS are compiled and minified using Gulp. You'll need [Node](https://nodejs.org/en/) and [Gulp](https://gulpjs.com/) installed globally.
-
-**From the root directory run:**
-
-```
-$ npm install
-$ gulp
-```
-
-Now you can edit `css/good-share.scss` and `js/good-share.js`, which will be compiled to `dist/` automatically.
