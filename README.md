@@ -6,7 +6,7 @@ See screenshots below.
 
 Forked it from Chris Yee's Good Share (Thanks!) and made the following changes:
 
-- Rewrote in jquery almost all of the code as it had too many issues/inefficency to use on production
+- A rewrite in jquery of almost all the code as it had too many issues/inefficency to use on production
 - Configurable now as you can set buttons, classes etc
 - Made it far more lightweight as it won't do anything now until the button is clicked. No overlay, no modal etc is created
 - It uses Open Graph if no inline url/title/description provided. If provided, overrides og tags
