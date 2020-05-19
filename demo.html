@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <h2>Basic</h2>
-        <p>This share button will share the current page title and url.</p>
+        <p>This share button will use og meta tags if available, otherwise the current page title and url.</p>
         <button class="better-share">Share</button>
 
         <h2>Title & URL defined</h2>
@@ -22,7 +22,7 @@
 
         <h2>Title, text and URL defined</h2>
         <p>This share button will share a defined title, text and url set by data attributes.</p>
-        <button class="better-share" data-share-title="Lorem ipsum Github Profile" data-share-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" data-share-url="https://nasa.gov"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+        <button class="better-share" data-share-title="Lorem ipsum Github Profile" data-share-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" data-share-url="https://nasa.gov"><span>Share </span><i class="fa fa-share-alt" aria-hidden="true"></i></button>
     
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

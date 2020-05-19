@@ -84,4 +84,8 @@ The URL to be shared.
 
 ``data-share-url="https://nasa.gov"``
 
+## Screenshots
+
+![Buttons](https://raw.github.com/selay/better-share/master/screenshots/1.jpg)
+
 
