@@ -12,7 +12,7 @@ Forked it from Chris Yee's Good Share (Thanks!) and made the following changes:
 - It uses Open Graph if no inline url/title/description provided. If provided, overrides og tags
 - Added font awesome 4.7 for button icons. It is not required though. You can add your own buttons
 - Simplified to just one js and one css files. 
-- Comes with facebook, twitter, whatsapp, telegram by default 
+- Comes with facebook, twitter, email, whatsapp, telegram by default 
 
 Better Share is a social share button library with [Web Share API](https://css-tricks.com/how-to-use-the-web-share-api/) integration.
 
