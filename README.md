@@ -86,12 +86,12 @@ The URL to be shared.
 
 ## Screenshots
 
-### buttons
+### 1. buttons
 ![Buttons](https://raw.github.com/selay/better-share/master/screenshots/1.jpg)
 
-### Supported browser
+### 2. Supported browser
 ![Supported browser](https://raw.github.com/selay/better-share/master/screenshots/3.png)
 
-### Fallback
+### 3. Fallback
 ![Fallback](https://raw.github.com/selay/better-share/master/screenshots/2.jpg)
 
