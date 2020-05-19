@@ -18,7 +18,7 @@ Using the Web Share API Navigator.share(), it allows the user to share content u
 
 For unsupported browsers, a fallback modal window with sharing buttons are used.
 
-[Some websites already use it. Eg:](https://www.miragenews.com/ghost-flight-pilots-fall-asleep-with-140-aboard-f16s-scrambled-video/) | [Download](https://github.com/selay/better-share/archive/master.zip)
+[Noticed some websites already use this.](https://www.miragenews.com/ghost-flight-pilots-fall-asleep-with-140-aboard-f16s-scrambled-video/) | [Download](https://github.com/selay/better-share/archive/master.zip)
 
 You can check here in use: https://www.miragenews.com/ghost-flight-pilots-fall-asleep-with-140-aboard-f16s-scrambled-video/
 
@@ -31,6 +31,7 @@ You can check here in use: https://www.miragenews.com/ghost-flight-pilots-fall-a
 - Supports [Open Graph Metadata](https://ogp.me/)
 
 ## Requirements
+- jQuery
 - Your website must be served over [HTTPS](https://www.cloudflare.com/learning/ssl/what-is-https/)
 - Sharing can only be triggered by a user action (click or touch)
 
