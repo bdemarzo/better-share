@@ -11,7 +11,7 @@ Forked it from Chris Yee's Good Share (Thanks!) and made the following changes:
 - Made it far more lightweight as it won't do anything now until the button is clicked. No overlay, no modal etc is created
 - It unbinds/unlistens all events (clicks, taps etc) except share button itself when the fallback popup is closed to avoid any performance impact
 - It uses Open Graph if no inline url/title/description provided. If provided, overrides og tags
-- [Optional] Added font awesome 4.7 for button icons. You can add your own buttons
+- Uses font awesome 4.7 for button icons. You can add your own buttons with svg or in other ways
 - Simple as (just 1 js and 1 css file). 
 - For browsers that support native share, the dialog offers all available social media platforms installed on the device. 
 - For browsers that don't support native web share, the dialog comes with facebook, twitter, email, whatsapp, telegram options by default (can easily be added/reordered)
@@ -36,6 +36,7 @@ You can check here in use: https://www.miragenews.com/ghost-flight-pilots-fall-a
 
 ## Requirements
 - jQuery
+- [Optional] Font Awesome 4.7
 - Your website must be served over HTTPS
 - Sharing can only be triggered by a user action (click or touch)
 
