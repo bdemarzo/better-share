@@ -1,6 +1,6 @@
 # Better Share 
 
-Web Share API Navigator.share() native mobile app like share dialog (Android and IOS) with fallback modal for unsupported browsers.
+Web Share API Navigator.share() native mobile app like share dialog (Android and IOS) with fallback modal for browsers that don't support native web share.
 
 See screenshots at the bottom.
 
