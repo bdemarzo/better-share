@@ -11,7 +11,7 @@ Forked it from Chris Yee's Good Share (Thanks!) and made the following changes:
 - Made it far more lightweight as it won't do anything now until the button is clicked. No overlay, no modal etc is created
 - It unbinds/unlistens all events (clicks, taps etc) except share button itself when the fallback popup is closed to avoid any performance impact
 - It uses Open Graph if no inline url/title/description provided. If provided, overrides og tags
-- Added font awesome 4.7 for button icons. It is not required though. You can add your own buttons
+- [Optional] Added font awesome 4.7 for button icons. You can add your own buttons
 - Simplified to just one js and one css files. 
 - Comes with facebook, twitter, email, whatsapp, telegram by default 
 
