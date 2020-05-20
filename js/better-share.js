@@ -167,5 +167,5 @@ function betterShare() {
     this._init();
 }
 $(function() {
-betterShare();
+    betterShare();
 });
