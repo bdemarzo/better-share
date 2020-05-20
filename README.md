@@ -13,7 +13,8 @@ Forked it from Chris Yee's Good Share (Thanks!) and made the following changes:
 - It uses Open Graph if no inline url/title/description provided. If provided, overrides og tags
 - [Optional] Added font awesome 4.7 for button icons. You can add your own buttons
 - Simple as (just 1 js and 1 css file). 
-- For browsers that support, the dialog offers all available social media platforms in the device. For fallback in the browsers, it comes with facebook, twitter, email, whatsapp, telegram options by default 
+- For browsers that support native share, the dialog offers all available social media platforms installed on the device. 
+- For browsers that don't support native web share, the dialog comes with facebook, twitter, email, whatsapp, telegram options by default (can easily be added/reordered)
 
 Better Share is a social share button library with [Web Share API](https://css-tricks.com/how-to-use-the-web-share-api/) integration.
 
