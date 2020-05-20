@@ -6,9 +6,9 @@ See screenshots at the bottom.
 
 Forked it from Chris Yee's Good Share (Thanks!) and made the following changes:
 
-- A rewrite in jquery of almost all the code as it had too high a overhead to use on production
+- A rewrite in jquery of almost all the code as it had too high an overhead to use on production
 - Configurable now as you can set buttons, classes etc
-- Made it far more lightweight as it won't do anything now until the button is clicked. No overlay, no modal etc is created
+- Made it far more lightweight as it won't do anything now until the button is clicked. No overlay, no modal, no event bindings etc on page load. 
 - It unbinds/unlistens all events (clicks, taps etc) except share button itself when the fallback popup is closed to avoid any performance impact
 - It uses Open Graph if no inline url/title/description provided. If provided, overrides og tags
 - Uses font awesome 4.7 for button icons. You can add your own buttons with svg or in other ways
