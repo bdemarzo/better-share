@@ -24,7 +24,7 @@ Using the Web Share API Navigator.share(), it allows the user to share content u
 
 For unsupported browsers, a fallback modal window with sharing buttons are used.
 
-Noticed [some websites] (https://www.miragenews.com/ghost-flight-pilots-fall-asleep-with-140-aboard-f16s-scrambled-video/) already use this better share library.
+Noticed [some websites](https://www.miragenews.com/ghost-flight-pilots-fall-asleep-with-140-aboard-f16s-scrambled-video/) already use this better share library.
 
 You can check here in use: https://www.miragenews.com/ghost-flight-pilots-fall-asleep-with-140-aboard-f16s-scrambled-video/
 
