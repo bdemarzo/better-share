@@ -12,6 +12,7 @@ Forked it from Chris Yee's Good Share (Thanks!) and made the following changes:
 - It unbinds/unlistens all events (clicks, taps etc) except share button itself when the fallback popup is closed to avoid any performance impact
 - It uses Open Graph if no inline url/title/description provided. If provided, overrides og tags
 - [Optional] Added font awesome 4.7 for button icons. You can add your own buttons
+- Simple as (just 1 js and 1 css file). 
 - Comes with facebook, twitter, email, whatsapp, telegram by default 
 
 Better Share is a social share button library with [Web Share API](https://css-tricks.com/how-to-use-the-web-share-api/) integration.
