@@ -4,7 +4,9 @@ Web Share API Navigator.share() native mobile app like share dialog (Android and
 
 See screenshots at the bottom.
 
-Forked it from Chris Yee's Good Share (Thanks!) and did a rewrite with the following changes: (Tested both on Android [Chrome] and IOS [Chrome|Safari])
+Tested both on Android [Chrome] and IOS [Chrome|Safari]
+
+Forked it from Chris Yee's Good Share (Thanks!) and did a rewrite with the main focus on performance and stability: 
 
 - A rewrite in jquery of almost all the code as it had too high an overhead to use on production
 - Configurable now as you can set buttons, classes etc
