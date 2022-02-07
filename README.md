@@ -74,6 +74,17 @@ You can check here in use: https://www.miragenews.com/ghost-flight-pilots-fall-a
 </button>
 ```
 
+## Sharing Images
+
+You can share an image a few ways:
+
+- Share an image at a URL, using `data-share-image-url` to specify the URL
+- Share a DOM element, either a `canvas` or an `img`, using `data-share-image-id` to specify the DOM element ID
+
+The image name will either be the filename of the image from the URL, or the DOM element id. To override this, use `data-share-image-name`.
+
+When sharing a remote image, all browser restrictions apply for fetching (e.g. CORS).
+
 ## Options
 
 ### data-share-title
@@ -90,6 +101,19 @@ The text to be shared.
 The URL to be shared.
 
 ``data-share-url="https://nasa.gov"``
+
+### data-share-image-url
+The URL of the image to be shared. 
+
+``data-share-image-url="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"``
+
+### data-share-image-id
+The DOM element ID of the image to be shared. Both `canvas` (the canvas itself, as a PNG) and `img` (the image reference in the `src`) are supported.
+
+``data-share-image-id="myCanvas"``
+
+### data-share-image-name
+The name to use for the shared image. If sharing a `canvas` the extension `.png` will be appended if it doesn't exist.
 
 ## Screenshots
 

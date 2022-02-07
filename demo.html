@@ -24,6 +24,15 @@
         <p>This share button will share a defined title, text and url set by data attributes.</p>
         <button class="better-share" data-share-title="Lorem ipsum Github Profile" data-share-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" data-share-url="https://nasa.gov"><span>Share </span><i class="fa fa-share-alt" aria-hidden="true"></i></button>
     
+        <h2>Title, URL, and image URL defined</h2>
+        <p>This share button will share a defined title and url set by data attributes and include an image from the given image URL.</p>
+        <button class="better-share" data-share-title="Lorem ipsum" data-share-image-url="img/nasa-logo.svg">Share</button>
+
+        <h2>Title, URL, and image ID (to an IMG tag) defined</h2>
+        <p>This share button will share a defined title and url set by data attributes and include an image from the referenced DOM element.</p>
+        <button class="better-share" data-share-title="Lorem ipsum" data-share-image-id="testImage" data-share-image-name="shared NASA image">Share</button>
+    
+        <img id="testImage" src="img/nasa-logo.svg" />
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/better-share.js"></script>
